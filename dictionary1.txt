@@ -1,0 +1,9 @@
+ moment abstract height balanced tree 
+binary complete data queue
+grow efficient insertion verification
+fundamental construct search
+recursive
+join node use
+operation weight
+parent
+traversal

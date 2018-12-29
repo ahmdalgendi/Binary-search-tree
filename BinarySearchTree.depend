@@ -1,0 +1,103 @@
+# depslib dependency file v1.0
+1539099053 source:d:\programms\programminghomeworkhelp_comnewassignment\binarysearchtree.cpp
+	<iostream>
+	"NodeTypes.h"
+	"BinaryTree.h"
+	<vector>
+
+1538336062 d:\programms\programminghomeworkhelp_comnewassignment\nodetypes.h
+	<iostream>
+
+1539098872 d:\programms\programminghomeworkhelp_comnewassignment\binarytree.h
+	<vector>
+
+1539099327 source:d:\programms\programminghomeworkhelp_comnewassignment\main.cpp
+	<iostream>
+	"NodeTypes.h"
+	"BinaryTree.h"
+	"Stack.h"
+	"Queue.h"
+	"BinarySearchTree.h"
+	<fstream>
+	<string>
+	<stdio.h>
+	<stdlib.h>
+
+1538140114 d:\programms\programminghomeworkhelp_comnewassignment\stack.h
+
+1538173290 d:\programms\programminghomeworkhelp_comnewassignment\queue.h
+
+1539098808 d:\programms\programminghomeworkhelp_comnewassignment\binarysearchtree.h
+
+1538175170 source:d:\programms\programminghomeworkhelp_comnewassignment\queue.cpp
+	<iostream>
+	<cstdlib>
+	"NodeTypes.h"
+	"Queue.h"
+
+1539084489 source:d:\programms\programminghomeworkhelp_comnewassignment\stack.cpp
+	<iostream>
+	<cstdlib>
+	"NodeTypes.h"
+	"Stack.h"
+
+1539099312 source:d:\programms\programminghomeworkhelp_comnewassignment\binarytree.cpp
+	<iostream>
+	"NodeTypes.h"
+	"BinaryTree.h"
+	"Stack.h"
+	"Queue.h"
+	<string>
+	<vector>
+
+1539099442 source:d:\free lance\bst\aa\programminghomeworkhelp_comnewassignment\binarysearchtree.cpp
+	<iostream>
+	"NodeTypes.h"
+	"BinaryTree.h"
+	<vector>
+
+1538336062 d:\free lance\bst\aa\programminghomeworkhelp_comnewassignment\nodetypes.h
+	<iostream>
+
+1539098872 d:\free lance\bst\aa\programminghomeworkhelp_comnewassignment\binarytree.h
+	<vector>
+
+1539099312 source:d:\free lance\bst\aa\programminghomeworkhelp_comnewassignment\binarytree.cpp
+	<iostream>
+	"NodeTypes.h"
+	"BinaryTree.h"
+	"Stack.h"
+	"Queue.h"
+	<string>
+	<vector>
+
+1538140114 d:\free lance\bst\aa\programminghomeworkhelp_comnewassignment\stack.h
+
+1538173290 d:\free lance\bst\aa\programminghomeworkhelp_comnewassignment\queue.h
+
+1539099327 source:d:\free lance\bst\aa\programminghomeworkhelp_comnewassignment\main.cpp
+	<iostream>
+	"NodeTypes.h"
+	"BinaryTree.h"
+	"Stack.h"
+	"Queue.h"
+	"BinarySearchTree.h"
+	<fstream>
+	<string>
+	<stdio.h>
+	<stdlib.h>
+
+1539098808 d:\free lance\bst\aa\programminghomeworkhelp_comnewassignment\binarysearchtree.h
+
+1538175170 source:d:\free lance\bst\aa\programminghomeworkhelp_comnewassignment\queue.cpp
+	<iostream>
+	<cstdlib>
+	"NodeTypes.h"
+	"Queue.h"
+
+1539084489 source:d:\free lance\bst\aa\programminghomeworkhelp_comnewassignment\stack.cpp
+	<iostream>
+	<cstdlib>
+	"NodeTypes.h"
+	"Stack.h"
+

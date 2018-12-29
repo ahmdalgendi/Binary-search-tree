@@ -1,0 +1,137 @@
+#include <iostream>
+#include "NodeTypes.h"
+#include "BinaryTree.h"
+
+using namespace std;
+
+BTNode * ceiling(BTNode * root, string key) {
+
+	if(root-> data == key)
+		return root;
+		if(key > root ->data )
+			{
+				if (root-> right == NULL)
+					return NULL;
+				ceiling(root->right, key);
+			}
+			else{
+
+				if(root-> left == NULL)
+					return root;
+				BTNode * my_node  = ceiling(root-> left, key);
+				if (my_node != NULL && my_node-> data > root->data )
+				return my_node;
+				return root;
+			}
+}
+
+
+BTNode * contains(BTNode * root, string key) {
+	if (root-> data == key)
+		return root ;
+	if(root-> data > key && root-> right != NULL)
+		contains(root-> right , key);
+	if(root-> data < key && root ->left != NULL)
+		contains(root->left , key);
+
+	return NULL;
+}
+btNode * getRoot(btNode * root)
+{
+	if(root-> parent == NULL)
+		return root ;
+	getRoot(root-> parent);
+}
+
+BTNode * deleteNode(BTNode * root, string key) {
+	if (contains(root , key)== NULL)
+		return root ;
+
+	return NULL;
+}
+
+
+BTNode * floor(BTNode * root, string key) {
+	if (root-> data == key)
+		return root;
+	if (root->data > key && root-> left != NULL)
+		return floor (root->left , key);
+		if(root->data < key)
+		{
+			if(root-> right == NULL)
+			return root ;
+			btNode * my_node =  floor(root->right, key);
+			if (my_node->data <=key)
+				return my_node;
+				return root;
+		}
+
+	return NULL;
+}
+
+
+BTNode * inOrderPredecessor (BTNode * node) {
+
+	return NULL;
+}
+
+
+BTNode * inOrderSuccessor (BTNode * node) {
+	return NULL;
+}
+
+
+BTNode * insert(BTNode * root, string key) {
+  if (key < root-> data )
+		{
+			if(root-> left == NULL)
+					{
+						root->left = createBTNode(key);
+						root->left->parent = root ;
+						return root ;
+					}
+				else{
+						root-> left = insert(root-> left ,  key);
+						return root;
+
+				}
+				else if (key > root-> data)
+				{
+					if(root-> right == NULL)
+							{
+								root->right = createBTNode(key);
+								root->right ->parent = root;
+								return root ;
+							}
+						else{
+								root-> right = insert(root-> right ,  key);
+								return root;
+				}
+
+		}
+	return root;
+}
+
+
+BTNode * max(BTNode * root) {
+	if(root-> right == NULL)
+		return root;
+	max(root->right);
+}
+
+
+BTNode * min(BTNode * root) {
+	if(root->left ==NULL)
+	return root;
+	min(root->left);
+}
+
+
+int range(BTNode * root, string low, string high) {
+	return 0;
+}
+
+
+int rank(BTNode * root, string key) {
+	return 0;
+}
